@@ -1,0 +1,30 @@
+body {
+
+    background-image: url(background.jpg);
+    background-position: 0px 0px;
+    background-size: auto;
+
+}
+
+h1 {
+    text-size-adjust: 100%;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(45deg, #00b4au
+  7, #aff8c00, green);
+}
+
+* wapper {
+  display: flex
+  

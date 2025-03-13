@@ -1,0 +1,93 @@
+<!DOCTYPE html lang="pt-BR">
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=5.0">
+    <script src="javascript.js"></script>
+    <link rel="shortcut icon" href="icon2.ico" type="image/x-icon">
+    <title>FabyVestKids - Registrar & Login</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <center>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-image: url('background.jpg'); /* Caminho para a imagem de fundo */
+                background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+                background-position: center; /* Centraliza a imagem */
+                background-repeat: no-repeat; /* Evita que a imagem se repita */
+            }
+    
+            .main {
+                background-color: #386c97;
+                border-radius: 15px;
+                box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+                padding: 20px;
+                width: 500px;
+            }
+    
+            .main h2 {
+                color: #f9f9f9;
+                margin-bottom: 20px;
+            }
+    
+            label {
+                display: block;
+                margin-bottom: 5px;
+                color: #f9f9f9;
+                font-weight: bold;
+            }
+    
+            input[type="text"],
+            input[type="email"],
+            input[type="password"],
+            select {
+                width: 100%;
+                margin-bottom: 15px;
+                padding: 10px;
+                box-sizing: border-box;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+            }
+    
+            button {
+                padding: 15px;
+                border-radius: 10px;
+                border: none;
+                background-color: #4caf50;
+                color: white;
+                cursor: pointer;
+                width: 100%;
+                font-size: 16px;
+            }
+        </style>
+    </center> 
+    <div class="main">
+        <h2>Login</h2>
+        <form action="javascript:void(0);">    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+    
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password"
+                   pattern="^(?=.*\d)(?=.*[a-zA-Z])(?=.*[^a-zA-Z0-9])\S{8,}$" 
+                   title="Password must contain at least one number, 
+                           one alphabet, one symbol, and be at 
+                           least 8 characters long" required />
+            
+            <p><a href="Form Register.html">Não tem conta? Registe-se!</a></p>
+                        </select>
+            <button type="button" onclick="window.location.href='index.html'">Login</button>
+        </form>
+    </div>
+</body>
+</html>
