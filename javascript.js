@@ -1,1 +1,0 @@
-window.alert("Atenção! Esse site está em desenvolvimento!")
